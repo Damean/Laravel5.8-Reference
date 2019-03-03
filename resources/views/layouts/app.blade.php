@@ -10,7 +10,7 @@
     </head>
     <body>
       @include('inc.navbar')
-      <div class="container">
+      <div class="container mt-3">
           @yield('content')
       </div>
       <script src="{{asset('js/app.js')}}"></script>
